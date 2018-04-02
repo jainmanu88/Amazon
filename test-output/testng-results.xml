@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on Shop By Category link.]]>
+    </line>
+    <line>
+      <![CDATA[Shop By Category link. element has been clicked successfully.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="73764" started-at="2018-04-02T14:07:45Z" finished-at="2018-04-02T14:08:59Z">
+    <groups>
+    </groups>
+    <test name="testng.xml" duration-ms="73764" started-at="2018-04-02T14:07:45Z" finished-at="2018-04-02T14:08:59Z">
+      <class name="in.amazon.tests.AmazonShoppingTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:in.amazon.tests.AmazonShoppingTest@d80b78]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2018-04-02T14:07:45Z" finished-at="2018-04-02T14:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:in.amazon.tests.AmazonShoppingTest@d80b78]" name="beforeMethod" is-config="true" duration-ms="66651" started-at="2018-04-02T14:07:45Z" finished-at="2018-04-02T14:08:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="amazonTest()[pri:0, instance:in.amazon.tests.AmazonShoppingTest@d80b78]" name="amazonTest" duration-ms="7072" started-at="2018-04-02T14:08:52Z" finished-at="2018-04-02T14:08:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Shop By Category link.]]>
+            </line>
+            <line>
+              <![CDATA[Shop By Category link. element has been clicked successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:in.amazon.tests.AmazonShoppingTest@d80b78]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-02T14:08:59Z" finished-at="2018-04-02T14:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:in.amazon.tests.AmazonShoppingTest@d80b78]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-04-02T14:08:59Z" finished-at="2018-04-02T14:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- in.amazon.tests.AmazonShoppingTest -->
+    </test> <!-- testng.xml -->
+  </suite> <!-- Suite -->
+</testng-results>
